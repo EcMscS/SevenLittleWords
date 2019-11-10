@@ -12,6 +12,7 @@
 		5920820623769138009C7A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5920820523769138009C7A02 /* Assets.xcassets */; };
 		5920820923769138009C7A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5920820723769138009C7A02 /* LaunchScreen.storyboard */; };
 		592082162376936A009C7A02 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592082152376936A009C7A02 /* MainVC.swift */; };
+		592082182376ADC2009C7A02 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592082172376ADC2009C7A02 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5920820823769138009C7A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5920820A23769138009C7A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		592082152376936A009C7A02 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		592082172376ADC2009C7A02 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		5920821323769159009C7A02 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				592082172376ADC2009C7A02 /* CustomButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592082182376ADC2009C7A02 /* CustomButton.swift in Sources */,
 				592081FD23769135009C7A02 /* AppDelegate.swift in Sources */,
 				592082162376936A009C7A02 /* MainVC.swift in Sources */,
 				592081FF23769135009C7A02 /* SceneDelegate.swift in Sources */,
